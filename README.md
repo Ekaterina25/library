@@ -19,18 +19,23 @@
 Для этого таблицы с данными c помощью SQL:
 
  Таблица books:
+
  ![image](https://user-images.githubusercontent.com/32367612/138317111-0fff5849-9dc7-4783-9714-1cf267d4e43e.png)
 
 Таблица students:
+
 ![image](https://user-images.githubusercontent.com/32367612/138317346-3b933b47-f1c2-48b3-b8db-54cf71979bd3.png)
 
 Таблица instances:
+
 ![image](https://user-images.githubusercontent.com/32367612/138317482-1dc70e20-25b7-461c-b8d2-77174f617158.png)
 
 Далее находим все книги по популярности, которые были взяты за последний год:
+
 ![image](https://user-images.githubusercontent.com/32367612/138317697-aa8ddb5d-7e0e-4014-b1c1-78580753f993.png)
 
 И после этого находим автора этих книг, и выводим самого популярного:
+
 ![image](https://user-images.githubusercontent.com/32367612/138317830-4abe3a8a-f1b7-482c-a012-cecf54dafa3c.png)
 
 
@@ -40,12 +45,14 @@
 Найдем с помощью запроса таких читателей:
 
 ![image](https://user-images.githubusercontent.com/32367612/138318563-2554915d-ec1a-4416-a790-7924e4ceff48.png)
+
 C помощью ниже написанного выберу самого "злостного" читателя:
 
 order by date desc
 limit 1;
 
 Им будет являться Евгений с просрочкой в 78 дней.
+
 ![image](https://user-images.githubusercontent.com/32367612/138318751-bcf2bd57-83e4-417f-87cf-202ae91efb2a.png)
 
 
